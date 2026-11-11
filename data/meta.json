@@ -1,0 +1,30 @@
+{
+ "titre": "Le Nord–Pas-de-Calais a gagné près de quatre semaines de soleil par an",
+ "region": {
+  "e": 134,
+  "pct": 7.6
+ },
+ "nord": {
+  "e": 142,
+  "pct": 8.1
+ },
+ "pas_de_calais": {
+  "e": 128,
+  "pct": 7.2
+ },
+ "france": {
+  "e": 115,
+  "pct": 5.6
+ },
+ "periodes": [
+  "1986-2005",
+  "2006-2025"
+ ],
+ "echelle": {
+  "min": 81,
+  "max": 183,
+  "unite": "heures par an"
+ },
+ "note": "Écart de la durée d'ensoleillement annuelle moyenne entre 2006-2025 et 1986-2005, estimée par satellite (cases d'environ 5 km). Écart non significatif si le test de Welch donne p ≥ 0,05. Valeurs communales : moyenne des cases couvrant la commune ; des communes voisines partagent souvent la même case.",
+ "source": "EUMETSAT CM SAF, SARAH-3 (CDR/ICDR). Copyright (c) (2025) EUMETSAT. Calculs La Voix du Nord."
+}
