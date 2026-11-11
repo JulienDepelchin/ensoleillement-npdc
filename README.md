@@ -21,6 +21,15 @@ Données de la carte interactive de *La Voix du Nord* sur le gain d'ensoleilleme
 
 Propriétés : `e` écart en heures par an, `pct` écart en %, `sig` écart significatif (test de Welch, p < 0,05), `partage` nombre de communes dont la case satellite principale est la même, `id` code INSEE.
 
+## Page France (`data/france/`)
+
+| Fichier | Contenu |
+|---|---|
+| `departements.geojson` | Contours des 96 départements métropolitains (IGN ADMIN EXPRESS COG CARTO, simplifiés) |
+| `departements.json` | Écart en heures et en %, significativité, rangs (hors Savoie et Haute-Savoie, sur valeurs arrondies), centroïdes |
+| `voisins.geojson` | Pays voisins (Natural Earth), fond gris |
+| `france_meta.json` | Classes, couleurs, textes |
+
 ## Méthode
 
 Durée d'ensoleillement annuelle estimée par satellite (SARAH-3, EUMETSAT CM SAF). Pour chaque case : moyenne 2006-2025 moins moyenne 1986-2005, et test de Welch sur les deux séries de 20 cumuls annuels. Pour chaque commune : moyenne des cases qui la couvrent, pondérée par la surface. Les estimations satellite surestiment légèrement les durées absolues : seuls les écarts sont publiés.

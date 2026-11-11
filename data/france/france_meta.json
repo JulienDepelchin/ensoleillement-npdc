@@ -1,0 +1,93 @@
+{
+ "bounds": [
+  [
+   41.3,
+   -5.3
+  ],
+  [
+   51.2,
+   9.7
+  ]
+ ],
+ "fond_mer": "#dde9f1",
+ "gris_non_significatif": "#c9c9c9",
+ "voisins": "#ececec",
+ "couleurs": [
+  "#fee8b0",
+  "#fdc576",
+  "#f89a45",
+  "#e8692a",
+  "#c8401c",
+  "#8c1d0f"
+ ],
+ "classes": {
+  "h": {
+   "seuils": [
+    100,
+    120,
+    140,
+    160,
+    180
+   ],
+   "libelles": [
+    "moins de 100",
+    "100 à 120",
+    "120 à 140",
+    "140 à 160",
+    "160 à 180",
+    "180 et plus"
+   ],
+   "titre": "Écart, en heures par an"
+  },
+  "pct": {
+   "seuils": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "libelles": [
+    "moins de 5 %",
+    "5 à 6 %",
+    "6 à 7 %",
+    "7 à 8 %",
+    "8 à 9 %",
+    "9 % et plus"
+   ],
+   "titre": "Écart, en %"
+  }
+ },
+ "images": {
+  "h": "france_h.png",
+  "pct": "france_pct.png"
+ },
+ "traits": {
+  "cote": {
+   "couleur": "#a9bfcf",
+   "epaisseur": 0.6
+  },
+  "departement": {
+   "couleur": "#ffffff",
+   "epaisseur": 0.6,
+   "opacite": 0.9
+  },
+  "frontiere": {
+   "couleur": "#ffffff",
+   "epaisseur": 1.2
+  },
+  "npdc": {
+   "couleur": "#ffffff",
+   "epaisseur": 2.2
+  }
+ },
+ "france": {
+  "h": 115,
+  "pct": 5.6
+ },
+ "n_classes": 94,
+ "titre": "Le Nord, l'un des départements où le soleil a le plus progressé",
+ "chapo": "Écart de la durée d'ensoleillement annuelle moyenne entre 2006-2025 et 1986-2005, par département.",
+ "note": "Moyenne des cases satellite (environ 5 km) couvrant chaque département, pondérée par la surface. Écart non significatif si le test de Welch donne p ≥ 0,05. Savoie et Haute-Savoie : écart probablement surestimé à cause de la neige, hors classement ; l'effet peut aussi toucher les autres départements de montagne (Alpes, Pyrénées).",
+ "source": "EUMETSAT CM SAF, SARAH-3 (CDR/ICDR). Copyright (c) (2025) EUMETSAT. Contours : IGN. Calculs La Voix du Nord."
+}
