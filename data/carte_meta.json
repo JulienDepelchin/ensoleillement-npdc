@@ -66,18 +66,18 @@
    "couleur": "#a9bfcf",
    "epaisseur": 0.6
   },
-  "frontiere": {
-   "couleur": "#ffffff",
-   "epaisseur": 1.6
-  },
   "departement": {
    "couleur": "#ffffff",
    "epaisseur": 0.7,
-   "opacite": 0.8
+   "opacite": 0.85
+  },
+  "frontiere": {
+   "couleur": "#ffffff",
+   "epaisseur": 1.5
   },
   "npdc": {
-   "couleur": "#3a2a20",
-   "epaisseur": 1.4
+   "couleur": "#ffffff",
+   "epaisseur": 2.4
   }
  },
  "note": "Comparaison des moyennes annuelles de deux périodes de vingt ans, estimées par satellite (cases d'environ 5 km), lissées pour la lisibilité. Un écart est jugé non significatif lorsque le test de Welch donne p ≥ 0,05.",
