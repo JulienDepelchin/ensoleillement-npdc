@@ -1,0 +1,65 @@
+[
+ {
+  "code": "68",
+  "nom": "Haut-Rhin",
+  "rang": false,
+  "prio": 1,
+  "lat": 47.867,
+  "lon": 7.234,
+  "ancre": "centre"
+ },
+ {
+  "code": "59",
+  "nom": "Nord",
+  "rang": true,
+  "prio": 1,
+  "lat": 51.42,
+  "lon": 2.55,
+  "ancre": "gauche"
+ },
+ {
+  "code": "75",
+  "nom": "Paris",
+  "rang": false,
+  "prio": 2,
+  "lat": 48.859,
+  "lon": 2.32,
+  "ancre": "centre"
+ },
+ {
+  "code": "62",
+  "nom": "Pas-de-Calais",
+  "rang": true,
+  "prio": 1,
+  "lat": 50.32,
+  "lon": 1.05,
+  "ancre": "droite"
+ },
+ {
+  "code": "29",
+  "nom": "Finistère",
+  "rang": false,
+  "prio": 2,
+  "lat": 48.236,
+  "lon": -3.947,
+  "ancre": "centre"
+ },
+ {
+  "code": "13",
+  "nom": "Bouches-du-Rhône",
+  "rang": false,
+  "prio": 2,
+  "lat": 43.539,
+  "lon": 5.375,
+  "ancre": "centre"
+ },
+ {
+  "code": "64",
+  "nom": "Pyrénées-Atlantiques",
+  "rang": false,
+  "prio": 1,
+  "lat": 43.179,
+  "lon": -0.74,
+  "ancre": "centre"
+ }
+]
