@@ -88,6 +88,7 @@
  "n_classes": 94,
  "titre": "Le Nord, l'un des départements où le soleil a le plus progressé",
  "chapo": "Écart de la durée d'ensoleillement annuelle moyenne entre 2006-2025 et 1986-2005, par département.",
- "note": "Moyenne des cases satellite (environ 5 km) couvrant chaque département, pondérée par la surface. Écart non significatif si le test de Welch donne p ≥ 0,05. Savoie et Haute-Savoie : écart probablement surestimé à cause de la neige, hors classement ; l'effet peut aussi toucher les autres départements de montagne (Alpes, Pyrénées).",
- "source": "EUMETSAT CM SAF, SARAH-3 (CDR/ICDR). Copyright (c) (2025) EUMETSAT. Contours : IGN. Calculs La Voix du Nord."
+ "note": "Comparaison des moyennes annuelles de deux périodes de vingt ans, estimées par satellite (cases d'environ 5 km), lissées pour la lisibilité. Une case est grisée lorsque son écart n'est pas significatif (test de Welch, p ≥ 0,05) ; à l'échelle d'un département, la moyenne de nombreuses cases peut l'être même si certaines ne le sont pas. Dans les zones de montagne enneigées (Alpes, Pyrénées, Massif central), l'écart est probablement surestimé : Savoie et Haute-Savoie sont hors classement.",
+ "source": "EUMETSAT CM SAF, SARAH-3 (CDR/ICDR). Copyright (c) (2025) EUMETSAT. Contours : IGN. Calculs La Voix du Nord.",
+ "legende_non_significatif": "non significatif (case)"
 }
