@@ -1,0 +1,85 @@
+{
+ "bounds": [
+  [
+   49.35,
+   0.9
+  ],
+  [
+   51.65,
+   5.1
+  ]
+ ],
+ "fond_mer": "#dde9f1",
+ "gris_non_significatif": "#c9c9c9",
+ "couleurs": [
+  "#fee8b0",
+  "#fdc576",
+  "#f89a45",
+  "#e8692a",
+  "#c8401c",
+  "#8c1d0f"
+ ],
+ "classes": {
+  "h": {
+   "seuils": [
+    100,
+    120,
+    140,
+    160,
+    180
+   ],
+   "libelles": [
+    "moins de 100",
+    "100 à 120",
+    "120 à 140",
+    "140 à 160",
+    "160 à 180",
+    "180 et plus"
+   ],
+   "titre": "Écart, en heures par an"
+  },
+  "pct": {
+   "seuils": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "libelles": [
+    "moins de 5 %",
+    "5 à 6 %",
+    "6 à 7 %",
+    "7 à 8 %",
+    "8 à 9 %",
+    "9 % et plus"
+   ],
+   "titre": "Écart, en %"
+  }
+ },
+ "images": {
+  "h": "ecart_h.png",
+  "pct": "ecart_pct.png"
+ },
+ "traits": {
+  "cote": {
+   "couleur": "#a9bfcf",
+   "epaisseur": 0.6
+  },
+  "frontiere": {
+   "couleur": "#ffffff",
+   "epaisseur": 1.6
+  },
+  "departement": {
+   "couleur": "#ffffff",
+   "epaisseur": 0.7,
+   "opacite": 0.8
+  },
+  "npdc": {
+   "couleur": "#3a2a20",
+   "epaisseur": 1.4
+  }
+ },
+ "note": "Comparaison des moyennes annuelles de deux périodes de vingt ans, estimées par satellite (cases d'environ 5 km), lissées pour la lisibilité. Un écart est jugé non significatif lorsque le test de Welch donne p ≥ 0,05.",
+ "source": "EUMETSAT CM SAF, SARAH-3 (CDR/ICDR). Copyright (c) (2025) EUMETSAT. Calculs La Voix du Nord."
+}

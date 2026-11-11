@@ -1,0 +1,214 @@
+{
+ "villes": [
+  {
+   "nom": "Lille",
+   "lat": 50.6319,
+   "lon": 3.0546,
+   "h": 156,
+   "pct": 9.1,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Dunkerque",
+   "lat": 51.0291,
+   "lon": 2.3433,
+   "h": 178,
+   "pct": 9.9,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Calais",
+   "lat": 50.9514,
+   "lon": 1.8694,
+   "h": 147,
+   "pct": 8.0,
+   "sig": true,
+   "prio": 1,
+   "cote": "gauche",
+   "region": true
+  },
+  {
+   "nom": "Boulogne-sur-Mer",
+   "lat": 50.7304,
+   "lon": 1.6075,
+   "h": 96,
+   "pct": 5.2,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Arras",
+   "lat": 50.2894,
+   "lon": 2.7668,
+   "h": 146,
+   "pct": 8.2,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Lens",
+   "lat": 50.4398,
+   "lon": 2.8186,
+   "h": 167,
+   "pct": 9.5,
+   "sig": true,
+   "prio": 2,
+   "cote": "gauche",
+   "region": true
+  },
+  {
+   "nom": "Valenciennes",
+   "lat": 50.362,
+   "lon": 3.5092,
+   "h": 150,
+   "pct": 8.8,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Maubeuge",
+   "lat": 50.2822,
+   "lon": 3.966,
+   "h": 143,
+   "pct": 8.4,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Saint-Omer",
+   "lat": 50.7673,
+   "lon": 2.2617,
+   "h": 123,
+   "pct": 6.8,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Cambrai",
+   "lat": 50.1723,
+   "lon": 3.246,
+   "h": 150,
+   "pct": 8.5,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Le Touquet",
+   "lat": 50.5117,
+   "lon": 1.6023,
+   "h": 122,
+   "pct": 6.6,
+   "sig": true,
+   "prio": 2,
+   "cote": "gauche",
+   "region": true
+  },
+  {
+   "nom": "Avesnes-sur-Helpe",
+   "lat": 50.1222,
+   "lon": 3.9275,
+   "h": 118,
+   "pct": 7.0,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": true
+  },
+  {
+   "nom": "Bruxelles",
+   "lat": 50.847,
+   "lon": 4.352,
+   "h": 161,
+   "pct": 9.8,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": false
+  },
+  {
+   "nom": "Gand",
+   "lat": 51.054,
+   "lon": 3.72,
+   "h": 154,
+   "pct": 9.2,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": false
+  },
+  {
+   "nom": "Bruges",
+   "lat": 51.209,
+   "lon": 3.225,
+   "h": 145,
+   "pct": 8.3,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": false
+  },
+  {
+   "nom": "Amiens",
+   "lat": 49.894,
+   "lon": 2.296,
+   "h": 135,
+   "pct": 7.6,
+   "sig": true,
+   "prio": 1,
+   "cote": "droite",
+   "region": false
+  },
+  {
+   "nom": "Saint-Quentin",
+   "lat": 49.847,
+   "lon": 3.287,
+   "h": 136,
+   "pct": 7.6,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": false
+  },
+  {
+   "nom": "Douvres",
+   "lat": 51.125,
+   "lon": 1.313,
+   "h": 143,
+   "pct": 7.8,
+   "sig": true,
+   "prio": 2,
+   "cote": "droite",
+   "region": false
+  }
+ ],
+ "mers": [
+  {
+   "nom": "Mer du Nord",
+   "lat": 51.45,
+   "lon": 2.2
+  },
+  {
+   "nom": "Manche",
+   "lat": 50.25,
+   "lon": 1.15
+  }
+ ]
+}

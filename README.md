@@ -6,6 +6,9 @@ Données de la carte interactive de *La Voix du Nord* sur le gain d'ensoleilleme
 
 | Fichier | Contenu |
 |---|---|
+| `ecart_h.png`, `ecart_pct.png` | Images classées (style v3), en heures et en %, bornes et classes dans `carte_meta.json` |
+| `traits.geojson` | Côte, frontières, départements, contour Nord / Pas-de-Calais |
+| `etiquettes.json` | Villes (valeurs communales ; hors région, moyenne de 3 x 3 cases) et mers |
 | `ecart_lisse.png` | Image lissée de l'écart (Web Mercator, découpée aux terres), bornes dans `image_meta.json` |
 | `grille_zone.json` | Valeurs par case satellite sur la zone élargie (survol hors région) |
 | `departements_59_62.geojson` | Contours du Nord et du Pas-de-Calais |
