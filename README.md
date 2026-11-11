@@ -6,7 +6,10 @@ Données de la carte interactive de *La Voix du Nord* sur le gain d'ensoleilleme
 
 | Fichier | Contenu |
 |---|---|
-| `cases.geojson` | Cases satellite (0,05°, environ 5 km) découpées au contour régional |
+| `ecart_lisse.png` | Image lissée de l'écart (Web Mercator, découpée aux terres), bornes dans `image_meta.json` |
+| `grille_zone.json` | Valeurs par case satellite sur la zone élargie (survol hors région) |
+| `departements_59_62.geojson` | Contours du Nord et du Pas-de-Calais |
+| `cases.geojson` | Cases satellite (0,05°, environ 5 km) découpées au contour régional (version 1, non utilisée) |
 | `communes.geojson` | Contours simplifiés des 1 534 communes |
 | `communes.json` | Index de recherche (centroïde, sans contour) |
 | `villes.json` | Villes repères pour les étiquettes |
@@ -20,4 +23,4 @@ Durée d'ensoleillement annuelle estimée par satellite (SARAH-3, EUMETSAT CM SA
 
 ## Source et licence
 
-EUMETSAT CM SAF, SARAH-3 (CDR/ICDR), DOI [10.5676/EUM_SAF_CM/SARAH/V003](https://doi.org/10.5676/EUM_SAF_CM/SARAH/V003). Copyright (c) (2025) EUMETSAT. Contours communaux : geo.api.gouv.fr. Calculs : La Voix du Nord.
+EUMETSAT CM SAF, SARAH-3 (CDR/ICDR), DOI [10.5676/EUM_SAF_CM/SARAH/V003](https://doi.org/10.5676/EUM_SAF_CM/SARAH/V003). Copyright (c) (2025) EUMETSAT. Contours communaux : geo.api.gouv.fr. Contours des terres : Natural Earth. Départements : france-geojson (G. David). Calculs : La Voix du Nord.

@@ -1,0 +1,37 @@
+{
+ "bounds": [
+  [
+   49.35,
+   0.9
+  ],
+  [
+   51.65,
+   5.1
+  ]
+ ],
+ "largeur_px": 1600,
+ "hauteur_px": 1378,
+ "echelle": [
+  {
+   "h": 81,
+   "couleur": "#fff3c4"
+  },
+  {
+   "h": 100,
+   "couleur": "#fdd27a"
+  },
+  {
+   "h": 120,
+   "couleur": "#f9a93f"
+  },
+  {
+   "h": 140,
+   "couleur": "#ec7a1c"
+  },
+  {
+   "h": 183,
+   "couleur": "#c4510d"
+  }
+ ],
+ "note_lissage": "Image interpolée entre les centres des cases satellite (environ 5 km) pour la lisibilité ; les valeurs affichées au survol sont celles des cases."
+}
